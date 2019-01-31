@@ -100,7 +100,7 @@ public class RuleFilterForLine {
         map.put(81,"throws_");
         map.put(82,"exceptionTypeList");
         map.put(83,"exceptionType");
-        map.put(84,"methodBody");
+//        map.put(84,"methodBody");
         map.put(85,"instanceInitializer");
         map.put(86,"staticInitializer");
         map.put(87,"constructorDeclaration");
@@ -146,7 +146,7 @@ public class RuleFilterForLine {
 //        map.put(123,"singleElementAnnotation");
         map.put(124,"arrayInitializer");
         map.put(125,"variableInitializerList");
-        map.put(126,"block");
+//        map.put(126,"block");
         map.put(127,"blockStatements");
 //        map.put(128,"blockStatement");
         map.put(129,"localVariableDeclarationStatement");

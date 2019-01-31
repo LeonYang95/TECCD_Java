@@ -140,7 +140,6 @@ public class Error1{
             swingRoot.validate();
             swingRoot.repaint();
         }
-
     }
 
     //5

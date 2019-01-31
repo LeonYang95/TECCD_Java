@@ -11,6 +11,7 @@ import java.util.*;
 
 public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
     private static int methodLimitedLine = Integer.valueOf(PropsLoader.getProperty("ccd.methodLimitedLine"));
+    private final String ccdSeparate = "ccdMethodSeparate";
     private int startLine;
     private String pathFilename;//方法所在文件的路径以及文件名
     private Jedis redis;
@@ -35,9 +36,27 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
         Stack<ParseTree> stack = new Stack<>();
         stack.push(ctx);
         int ruleIndex;
+        Map<Integer, List<String>> clMap = new HashMap<>();
+        List<String> clList;
         StringBuilder statement = new StringBuilder();
         while(!stack.empty()){
             ParseTree node = stack.pop();
+            //beta优化: 按代码行序列相似求beta
+            if(node instanceof RuleNode){
+                int tokenIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
+                if (RuleFilterForLine.ruleFilter().containsKey(tokenIndex)) {
+                    ParserRuleContext ct = (ParserRuleContext)node;
+                    int nodeline = ct.getStart().getLine();
+                    if (!clMap.keySet().contains(nodeline)) {
+                        clList = new ArrayList<>();
+                        clList.add(tokenIndex+"");
+                        clMap.put(nodeline, clList);
+                    } else {
+                        clMap.get(nodeline).add(tokenIndex+"");
+                    }
+                }
+            }
+
             if(node instanceof RuleNode){
                 ruleIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
                 if(ruleIndex == Java8Parser.RULE_blockStatement){
@@ -69,12 +88,20 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
                 }
             }
         }
-//        System.out.println("statement: "+statement.toString());
+        //method statements
         statement.deleteCharAt(statement.length()-1);
-        String value = statement.toString();
+        //method tokens
+        StringBuilder methodLineTokens = new StringBuilder();
+        for (Map.Entry<Integer, List<String>> entry : clMap.entrySet()) {
+            if(entry.getValue().size() > 0){
+                String str = entry.getValue().toString();
+                String lineTokens = str.substring(1, str.length()-1);
+                methodLineTokens.append(lineTokens+";");
+            }
+        }
+        String value = methodLineTokens +ccdSeparate+ statement.toString();
         redis.set(key, value);
 //        System.out.println("value: "+value);
-
         return visitChildren(ctx);
     }
 

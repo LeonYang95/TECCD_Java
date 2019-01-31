@@ -12,6 +12,7 @@ public class Main {
         String fileType = PropsLoader.getProperty("ccd.fileType");
         int threadCount = Integer.valueOf(PropsLoader.getProperty("ccd.threadCount"));
         List<String> fileList = new FileUtil().readfile(path, fileType);
+        System.out.println("文件数目:"+fileList.size());
         List<String>[] taskListPerThread = distributeTasks(fileList, threadCount); //分发解析任务给多个线程, 并执行解析
         for (int i = 0; i < taskListPerThread.length; i++) {
             Thread workThread = new WorkThread(taskListPerThread[i], i+1);
