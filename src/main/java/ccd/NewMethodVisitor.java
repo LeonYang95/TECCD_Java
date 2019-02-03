@@ -36,27 +36,29 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
         Stack<ParseTree> stack = new Stack<>();
         stack.push(ctx);
         int ruleIndex;
-        Map<Integer, List<String>> clMap = new HashMap<>();
-        List<String> clList;
         StringBuilder statement = new StringBuilder();
+        StringBuilder line = new StringBuilder();
+        int beforeLine = -1;
         while(!stack.empty()){
             ParseTree node = stack.pop();
             //beta优化: 按代码行序列相似求beta
             if(node instanceof RuleNode){
-                int tokenIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
-                if (RuleFilterForLine.ruleFilter().containsKey(tokenIndex)) {
+                int nodeIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
+                if (RuleFilterForLine.ruleFilter().containsKey(nodeIndex)) {
                     ParserRuleContext ct = (ParserRuleContext)node;
-                    int nodeline = ct.getStart().getLine();
-                    if (!clMap.keySet().contains(nodeline)) {
-                        clList = new ArrayList<>();
-                        clList.add(tokenIndex+"");
-                        clMap.put(nodeline, clList);
-                    } else {
-                        clMap.get(nodeline).add(tokenIndex+"");
+                    int currentLine = ct.getStart().getLine();
+                    if(beforeLine == -1){
+                        beforeLine = currentLine;
+                    }
+                    if(currentLine != beforeLine){
+                        line.deleteCharAt(line.length()-1);
+                        line.append(";").append(nodeIndex+",");
+                        beforeLine = currentLine;
+                    }else {
+                        line.append(nodeIndex+",");
                     }
                 }
             }
-
             if(node instanceof RuleNode){
                 ruleIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
                 if(ruleIndex == Java8Parser.RULE_blockStatement){
@@ -88,20 +90,17 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
                 }
             }
         }
+
         //method statements
         statement.deleteCharAt(statement.length()-1);
-        //method tokens
-        StringBuilder methodLineTokens = new StringBuilder();
-        for (Map.Entry<Integer, List<String>> entry : clMap.entrySet()) {
-            if(entry.getValue().size() > 0){
-                String str = entry.getValue().toString();
-                String lineTokens = str.substring(1, str.length()-1);
-                methodLineTokens.append(lineTokens+";");
-            }
-        }
-        String value = methodLineTokens +ccdSeparate+ statement.toString();
+        //method line
+        line.deleteCharAt(line.length()-1).append(";");
+        System.out.println(line.toString());
+
+        String value = line.toString() +ccdSeparate+ statement.toString();
         redis.set(key, value);
 //        System.out.println("value: "+value);
+        System.out.println("=================================");
         return visitChildren(ctx);
     }
 

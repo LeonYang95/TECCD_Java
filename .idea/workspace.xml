@@ -5,29 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/common/345937.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/common/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/common/Method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/Error2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/Error2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v1/error1/Error1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v1/error2/Error1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v1/error3/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v2/error1/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v1/error3/Error2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v2/error1/Error1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v2/error2/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v2/error2/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v3/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v3/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v3/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v3/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v4/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v4/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v5/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v5/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v6/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v6/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v7/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v7/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/error_v8/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/error_v8/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/errorcase/totalerror/Error1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/errorcase/v1/totalerror/Error1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ccd/NewMethodVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ccd/NewMethodVisitor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,48 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewMethodVisitor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewMethodVisitor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="29" selection-start-line="29" selection-end-line="30" />
+            <state relative-caret-position="280">
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5564#5565#0" expanded="true" />
-                <element signature="e#5612#5613#0" expanded="true" />
-                <element signature="e#5646#5647#0" expanded="true" />
-                <element signature="e#5680#5681#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleFilterForLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-972">
-              <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex/common/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-              <folding>
-                <element signature="e#3760#3761#0" expanded="true" />
-                <element signature="e#3806#3807#0" expanded="true" />
+                <element signature="e#5275#5276#0" expanded="true" />
+                <element signature="e#5323#5324#0" expanded="true" />
+                <element signature="e#5357#5358#0" expanded="true" />
+                <element signature="e#5391#5392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +65,6 @@
       <find>expression</find>
       <find>vectorSequence</find>
       <find>128</find>
-      <find>137</find>
       <find>blockKey</find>
       <find>lite</find>
       <find>231</find>
@@ -128,10 +75,11 @@
       <find>m</find>
       <find>133</find>
       <find>statementWithoutTrailingSubstatement</find>
-      <find>public void addCustomEntriesToTable(UIDefaults table) {</find>
+      <find />
       <find>itemStateChanged</find>
       <find>84</find>
       <find>126</find>
+      <find>137</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,13 +136,13 @@
         <option value="$PROJECT_DIR$/ex/errorcase/v1/error_v8/Error1.java" />
         <option value="$PROJECT_DIR$/ex/preversion/NewMethodVisitor2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/ex/common/Method.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="6" />
     <option name="y" value="102" />
     <option name="width" value="1807" />
@@ -283,6 +231,12 @@
               <item name="ex" type="462c0819:PsiDirectoryNode" />
               <item name="errorcase" type="462c0819:PsiDirectoryNode" />
               <item name="v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ccd" type="462c0819:PsiDirectoryNode" />
+              <item name="ex" type="462c0819:PsiDirectoryNode" />
+              <item name="methodcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
@@ -395,22 +349,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java_ws\ccd\ex\errorcase\v2" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\error_v8" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\error_v7" />
-      <recent name="F:\java_ws\ccd\ex\errorcase" />
-      <recent name="F:\java_ws\ccd\ex\misscase" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ccd" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\java_ws\ccd\ex\errorcase\v1" />
       <recent name="F:\java_ws\ccd\ex\errorcase\error_v2" />
       <recent name="F:\java_ws\ccd\ex\errorcase\error_v1" />
       <recent name="F:\java_ws\ccd\ex" />
       <recent name="F:\java_ws\ccd\ex\fold1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ccd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_ws\ccd\ex\errorcase" />
+      <recent name="F:\java_ws\ccd\ex\common" />
+      <recent name="F:\java_ws\ccd\ex\errorcase\v2" />
+      <recent name="F:\java_ws\ccd\ex\errorcase\error_v8" />
+      <recent name="F:\java_ws\ccd\ex\errorcase\error_v7" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -604,18 +558,19 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Tool Output" order="12" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.84078515" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.785169" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2082879" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11014177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6906318" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.15812431" />
       <window_info anchor="bottom" id="ANTLR Preview" order="10" weight="0.5481728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -629,7 +584,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.15904139" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -644,38 +598,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/totalerror/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12771">
-          <caret line="473" column="1" lean-forward="true" selection-start-line="447" selection-end-line="473" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="e#3760#3761#0" expanded="true" />
-            <element signature="e#3806#3807#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8BaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="915" column="4" lean-forward="true" selection-start-line="915" selection-start-column="4" selection-end-line="915" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/optcase/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="37" selection-start-line="23" selection-start-column="40" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sim/SimHash.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/RuleContext.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -762,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="150" column="35" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex/methodcase/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -843,34 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="74" column="9" selection-start-line="67" selection-start-column="7" selection-end-line="74" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="62" column="73" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/MethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-297">
@@ -906,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v5/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v6/Error1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -941,10 +821,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
+    <entry file="file://$PROJECT_DIR$/ex/common/SymbolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="270">
+          <caret line="50" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/common/SampleTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="237" column="5" lean-forward="true" selection-start-line="205" selection-start-column="3" selection-end-line="237" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/errorcase/SampleTree.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v5/Error1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -955,27 +852,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java">
+    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="29" selection-start-line="29" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5564#5565#0" expanded="true" />
-            <element signature="e#5612#5613#0" expanded="true" />
-            <element signature="e#5646#5647#0" expanded="true" />
-            <element signature="e#5680#5681#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="35">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="62" column="73" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/preversion/MethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex/common/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+        <state relative-caret-position="-54">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
-            <element signature="e#3760#3761#0" expanded="true" />
-            <element signature="e#3806#3807#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="160" column="19" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5275#5276#0" expanded="true" />
+            <element signature="e#5323#5324#0" expanded="true" />
+            <element signature="e#5357#5358#0" expanded="true" />
+            <element signature="e#5391#5392#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,23 @@
 public class Method{
+    public void stopLoading() {
+        if(timer != null) {
+            timer.stop();
+            timer = null;
+        }
+        loadButton.setEnabled(true);
+        stopButton.setEnabled(false);
+    }
+    public static void main(String args[]) {
+        Frame f = new Frame("CardTest");
+        CardTest cardTest = new CardTest();
+        cardTest.init();
+        cardTest.start();
+
+        f.add("Center", cardTest);
+        f.setSize(300, 300);
+        f.show();
+    }
+
     public void init() {
         setLayout(new BorderLayout());
 
@@ -31,41 +50,37 @@ public class Method{
         add("South", new Label("Symbols=0x2200, Dingbats=0x2700, Greek=0x0370"));
     }
 
-    protected JMenu buildSpeedMenu() {
-        JMenu speed = new JMenu("Drag");
-        JRadioButtonMenuItem normal = new JRadioButtonMenuItem("Normal");
-        JRadioButtonMenuItem fast = new JRadioButtonMenuItem("Fast");
-        JRadioButtonMenuItem outline = new JRadioButtonMenuItem("Outline");
+    private JMenuBar constructMenuBar() {
+        JMenu            menu;
+        JMenuBar         menuBar = new JMenuBar();
+        JMenuItem        menuItem;
 
-        ButtonGroup group = new ButtonGroup();
-        group.add(normal);
-        group.add(fast);
-        group.add(outline);
+        /* Good ol exit. */
+        menu = new JMenu("File");
+        menuBar.add(menu);
 
-        normal.setSelected(true);
+        menuItem = menu.add(new JMenuItem("Exit"));
+        menuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }});
 
-        normal.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                desktop.putClientProperty("JDesktopPane.dragMode", null);}});
+        /* Tree related stuff. */
+        menu = new JMenu("Tree");
+        menuBar.add(menu);
 
-        fast.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                desktop.putClientProperty("JDesktopPane.dragMode", "faster");}});
+        menuItem = menu.add(new JMenuItem("Add"));
+        menuItem.addActionListener(new AddAction());
 
-        outline.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                desktop.putClientProperty("JDesktopPane.dragMode", "outline");}});
+        menuItem = menu.add(new JMenuItem("Insert"));
+        menuItem.addActionListener(new InsertAction());
 
-        speed.add(normal);
-        speed.add(fast);
-        speed.add(outline);
-        return speed;
+        menuItem = menu.add(new JMenuItem("Reload"));
+        menuItem.addActionListener(new ReloadAction());
+
+        menuItem = menu.add(new JMenuItem("Remove"));
+        menuItem.addActionListener(new RemoveAction());
+
+        return menuBar;
     }
-
-
-
-
-
-
-
 }
