@@ -1,12 +1,10 @@
 package ccd;
 
 import antlr.Java8BaseVisitor;
-import antlr.Java8Lexer;
 import antlr.Java8Parser;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.RuleNode;
-import org.antlr.v4.runtime.tree.TerminalNode;
 import redis.clients.jedis.Jedis;
 
 import java.util.*;
@@ -21,6 +19,11 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
     @Override
     public Integer visitMethodHeader(Java8Parser.MethodHeaderContext ctx) {
         startLine = ctx.start.getLine();
+        return visitChildren(ctx);
+    }
+
+    @Override
+    public Integer visitBlockStatement(Java8Parser.BlockStatementContext ctx) {
         return visitChildren(ctx);
     }
 
@@ -40,25 +43,23 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
         while(!stack.empty()){
             ParseTree node = stack.pop();
             //beta优化: 按代码行序列相似求beta
-            //token
-            if(node instanceof TerminalNode){
-                int tokenType = ((TerminalNode) node).getSymbol().getType();
-                if(!(tokenType>= Java8Lexer.LPAREN && tokenType<=Java8Lexer.URSHIFT_ASSIGN)){
-                    ParserRuleContext ct = (ParserRuleContext)node.getParent();
+            if(node instanceof RuleNode){
+                int nodeIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
+                if (RuleFilterForLine.ruleFilter().containsKey(nodeIndex)) {
+                    ParserRuleContext ct = (ParserRuleContext)node;
                     int currentLine = ct.getStart().getLine();
                     if(beforeLine == -1){
                         beforeLine = currentLine;
                     }
                     if(currentLine != beforeLine){
                         line.deleteCharAt(line.length()-1);
-                        line.append(";").append(tokenType+",");
+                        line.append(";").append(nodeIndex+",");
                         beforeLine = currentLine;
                     }else {
-                        line.append(tokenType+",");
+                        line.append(nodeIndex+",");
                     }
                 }
             }
-            //Rule Node
             if(node instanceof RuleNode){
                 ruleIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
                 if(ruleIndex == Java8Parser.RULE_blockStatement){
@@ -85,6 +86,7 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
                             statement.deleteCharAt(statement.length()-1);
                             statement.append(";");
                         }
+
                     }
                 }
                 for(int len = node.getChildCount(), i = len - 1; i >= 0; i --){
@@ -92,12 +94,17 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
                 }
             }
         }
-        if(statement.length()>=1){//method statements
+
+        //method statements
+        if(statement.length()>=1){
             statement.deleteCharAt(statement.length()-1);
         }
-        if(line.length()>=1){//method line
+        //method line
+        if(line.length()>=1){
             line.deleteCharAt(line.length()-1).append(";");
         }
+//        System.out.println(line.toString());
+
         String value = line.toString() +ccdSeparate+ statement.toString();
         redis.set(key, value);
 //        System.out.println("value: "+value);
@@ -108,6 +115,7 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
     void setPathFilename(String pathFilename) {
         this.pathFilename = pathFilename;
     }
+
     void setRedis(Jedis redis) {
         this.redis = redis;
     }
