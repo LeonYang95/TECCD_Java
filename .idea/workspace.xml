@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a5d10d0-18d3-40dd-914e-2bf6f739445c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,29 +20,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
+      <file leaf-file-name="MethodVisitor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
-              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+            <state relative-caret-position="216">
+              <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="12" column="128" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="128" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ccd/WorkThread.java">
+      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/RedisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-1512">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,21 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex/bcb/3/2100744.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/3/18267.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/2/237460.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/3/1123018.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/4/2186127.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/4/1907735.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/15/156485.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/15/2651775.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/v2/Error1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TEva.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/2/1907735.java" />
-        <option value="$PROJECT_DIR$/ex/common/cm3/Method.java" />
-        <option value="$PROJECT_DIR$/ex/common/cclearnerfp/Method2.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/3/2411373.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/PVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/RedisUtil.java" />
         <option value="$PROJECT_DIR$/ex/bcb/mt3/5/638277.java" />
         <option value="$PROJECT_DIR$/ex/bcb/mt3/5/2148476.java" />
@@ -151,6 +135,21 @@
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/11/1458174.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/11/2129642.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/12/1991464.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/12/1940646.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/13/1060821.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/14/747655.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/14/1772258.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/15/156485.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/15/2651775.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/st3/1/638277.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/st3/1/798877.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/st3/4/1721704.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/st3/5/1721704.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/st3/6/798877.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/st3/6/2477731.java" />
       </list>
     </option>
   </component>
@@ -179,61 +178,12 @@
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="backup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="bcb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="bcb" type="462c0819:PsiDirectoryNode" />
-              <item name="miscase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="v2error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="v2error" type="462c0819:PsiDirectoryNode" />
-              <item name="c1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="v2error" type="462c0819:PsiDirectoryNode" />
-              <item name="c2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="v2error" type="462c0819:PsiDirectoryNode" />
-              <item name="c3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="v2error" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-              <item name="v2error" type="462c0819:PsiDirectoryNode" />
-              <item name="c5" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
@@ -294,11 +244,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_ws\ccd\doc" />
       <recent name="F:\java_ws\ccd\case" />
       <recent name="F:\java_ws\ccd\ex\v2error" />
       <recent name="F:\java_ws\ccd\ex\v2error\c1" />
       <recent name="F:\java_ws\ccd\backup" />
-      <recent name="F:\java_ws\ccd\ex\common\cm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="util" />
@@ -477,7 +427,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551523682019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1551524999757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551524999757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1551525061882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551525061882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1551525725691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551525725691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -514,6 +485,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1700" height="966" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -524,12 +496,12 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Event Log" order="9" sideWeight="0.50053304" weight="0.3456" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.30072463" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34661835" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.007246377" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6906318" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20439292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20439292" />
       <window_info anchor="bottom" id="Statistic" order="12" weight="0.15158124" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34640524" />
       <window_info anchor="bottom" id="ANTLR Preview" order="9" sideWeight="0.49946696" weight="0.24100327" />
@@ -563,170 +535,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5292">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/v2error/c1/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/v2error/c2/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/v2error/c3/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/v2error/c4/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/v2error/c5/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/1/2085174.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="31" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/2/237460.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/2/1907735.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/3/2411373.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/3/1123018.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/4/1907735.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/5/638277.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/5/2148476.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/6/1616484.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/6/2591329.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/7/1751481.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/7/1182232.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-764" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/8/2687790.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/8/2290064.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/cm/MethodIF.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/cm/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/cm2/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/cm3/Method.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/optcase/opt1/Opt1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/optcase/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1145" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/optcase/Opt1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/nodeseq/Case.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/misscase/Case.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2808">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/4/2186127.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -737,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/result">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c2/Method.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case/v2error/c3/Method.java">
@@ -781,23 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c1/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1415">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-194">
@@ -807,22 +595,234 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccd/WorkThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        <state relative-caret-position="772">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/6/1616484.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/6/2591329.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/7/1182232.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/7/1751481.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/8/2687790.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/9/638277.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/9/962957.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/10/748016.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/10/1750156.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/8/2290064.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/11/1458174.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/11/2129642.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/12/1991464.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/12/1940646.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/13/1060821.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/14/747655.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/14/1772258.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/15/156485.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/15/2651775.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/1/638277.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/1/798877.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/2/2186031.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/2/2571726.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/3/18267.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/4/1213865.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/4/1721704.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/5/1213865.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/5/1721704.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/6/798877.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/6/2477731.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c1/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c2/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="12" column="128" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="128" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
