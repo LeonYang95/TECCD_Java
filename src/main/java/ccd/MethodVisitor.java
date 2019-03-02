@@ -11,7 +11,7 @@ import redis.clients.jedis.Jedis;
 
 import java.util.*;
 
-public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
+public class MethodVisitor extends Java8BaseVisitor<Integer> {
     private static int methodLimitedLine = Integer.valueOf(PropsLoader.getProperty("ccd.methodLimitedLine"));
     private final String ccdSeparate = "ccdMethodSeparate";
     private int startLine;
@@ -26,7 +26,6 @@ public class NewMethodVisitor extends Java8BaseVisitor<Integer> {
 
     @Override
     public Integer visitMethodBody(Java8Parser.MethodBodyContext ctx) {
-        //将AST转化成network形式:
         int stopLine = ctx.stop.getLine();
         if((stopLine - startLine + 1) < methodLimitedLine)//方法代码行过滤阈值, 低于阈值的不参与检测
             return null;

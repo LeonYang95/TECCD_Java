@@ -9,8 +9,9 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import redis.clients.jedis.Jedis;
 import util.RedisUtil;
 
-import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class WorkThread extends Thread{
@@ -26,12 +27,10 @@ public class WorkThread extends Thread{
         CharStream inputStream;
         Java8Parser parser;
         ParseTree parseTree;
-        NewMethodVisitor methodVisitor = new NewMethodVisitor();
+        MethodVisitor methodVisitor = new MethodVisitor();
         Jedis redis = RedisUtil.getJedis();
-        long beginTime;
         for (String file : fileList) {
             try {
-                beginTime = System.currentTimeMillis();
                 System.out.println(file+" start...");
                 inputStream = CharStreams.fromFileName(file);
                 parser = new Java8Parser(new CommonTokenStream(new Java8Lexer(inputStream)));
@@ -39,9 +38,6 @@ public class WorkThread extends Thread{
                 methodVisitor.setPathFilename(file);
                 methodVisitor.setRedis(redis);
                 methodVisitor.visit(parseTree);
-                parser = null;
-                parseTree = null;
-                inputStream = null;
 //                File f = new File(file);
 //                if(f.exists()&&f.isFile())
 //                    f.delete();
@@ -49,7 +45,7 @@ public class WorkThread extends Thread{
                 e.printStackTrace();
             }
         }
-
+        System.out.println("thread"+threadId+"结束时间: "+new SimpleDateFormat("yyy-MM-dd hh:mm:ss").format(new Date(System.currentTimeMillis())));
         RedisUtil.returnResource(redis);
     }
 }
