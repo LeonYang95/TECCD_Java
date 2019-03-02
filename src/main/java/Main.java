@@ -10,7 +10,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("AST转换开启时间: "+new SimpleDateFormat("yyy-MM-dd hh:mm:ss").format(new Date(System.currentTimeMillis())));
+        System.out.println("AST转换开启时间: "+new SimpleDateFormat("yyy-MM-dd hh:mm:ss")
+                .format(new Date(System.currentTimeMillis())));
         RedisUtil.init();//开启redis服务, 清空redis历史数据
 //        RedisUtil.checkSet();
         String path = PropsLoader.getProperty("ccd.path");

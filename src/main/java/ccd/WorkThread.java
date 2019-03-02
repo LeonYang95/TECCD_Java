@@ -38,6 +38,7 @@ public class WorkThread extends Thread{
                 methodVisitor.setPathFilename(file);
                 methodVisitor.setRedis(redis);
                 methodVisitor.visit(parseTree);
+//                是否对扫描过的文件进行删除
 //                File f = new File(file);
 //                if(f.exists()&&f.isFile())
 //                    f.delete();
@@ -45,7 +46,8 @@ public class WorkThread extends Thread{
                 e.printStackTrace();
             }
         }
-        System.out.println("thread"+threadId+"结束时间: "+new SimpleDateFormat("yyy-MM-dd hh:mm:ss").format(new Date(System.currentTimeMillis())));
+        System.out.println("thread"+threadId+"结束时间: "+new SimpleDateFormat("yyy-MM-dd hh:mm:ss")
+                .format(new Date(System.currentTimeMillis())));
         RedisUtil.returnResource(redis);
     }
 }
