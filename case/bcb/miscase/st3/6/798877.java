@@ -14,52 +14,7 @@ import org.openremote.controller.event.Event;
  */
 public class HttpGetEvent extends Event {
 
-    /** The logger. */
-    private static Logger logger = Logger.getLogger(HttpGetEvent.class.getName());
 
-    /** A name to identify event in controller.xml. */
-    private String name;
-
-    /** The url to perform the http get request on */
-    private String url;
-
-    /**
-    * Gets the name.
-    *
-    * @return the name
-    */
-    public String getName() {
-        return name;
-    }
-
-    /**
-    * Sets the name.
-    *
-    * @param name the new name
-    */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
-    * Gets the url
-    * @return the url
-    */
-    public String getUrl() {
-        return url;
-    }
-
-    /**
-    * Sets the url
-    * @param url the new url
-    */
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    /**
-    * {@inheritDoc}
-    */
     @Override
     public void exec() {
         BufferedReader in = null;

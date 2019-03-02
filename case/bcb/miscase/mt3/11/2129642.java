@@ -10,11 +10,6 @@ import java.util.List;
 
 public class ResourceIndexServer {
 
-    private String baseurl;
-
-    public ResourceIndexServer(String baseurl) {
-        this.baseurl = baseurl;
-    }
 
     public List<String> query(String query) throws IOException {
         List<String> list = new LinkedList<String>();

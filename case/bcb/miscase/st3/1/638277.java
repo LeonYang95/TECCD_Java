@@ -18,28 +18,6 @@ import org.openremote.controller.component.EnumSensorType;
  *
  */
 public class MockupCommand implements ExecutableCommand, StatusCommand {
-
-    private String url;
-
-    private Logger logger = Logger.getLogger(this.getClass().getName());
-
-    public MockupCommand() {
-        super();
-    }
-
-    public MockupCommand(String url) {
-        super();
-        this.url = url;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
     @Override
     public void send() {
         BufferedReader in = null;

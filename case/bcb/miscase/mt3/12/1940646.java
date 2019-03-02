@@ -27,33 +27,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 public class Search extends Activity {
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.search);
-        ArrayList al = loadIndexes();
-        System.out.println(al);
-        final Spinner spinner = (Spinner) findViewById(R.id.spinner1);
-        final EditText editText = (EditText) findViewById(R.id.editText1);
-        ArrayAdapter aa = new ArrayAdapter(this, android.R.layout.simple_spinner_item, al);
-        aa.setDropDownViewResource(android.R.layout.simple_spinner_item);
-        System.out.println(spinner);
-        System.out.println(aa);
-        spinner.setAdapter(aa);
-        Button btn1 = (Button) findViewById(R.id.button1);
-        btn1.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent myIntent = new Intent(Search.this, Results.class);
-                myIntent.putExtra("Text", editText.getText().toString());
-                myIntent.putExtra("Index", spinner.getSelectedItem().toString());
-                Search.this.startActivity(myIntent);
-            }
-        });
-    }
-
     public ArrayList loadIndexes() {
         JSONObject job = new JSONObject();
         ArrayList al = new ArrayList();

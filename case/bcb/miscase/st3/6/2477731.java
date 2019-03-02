@@ -15,8 +15,6 @@ import org.openremote.controller.command.ExecutableCommand;
  */
 public class MockupExecutableCommand extends MockupCommand implements ExecutableCommand {
 
-    private Logger logger = Logger.getLogger(this.getClass().getName());
-
     @Override
     public void send() {
         BufferedReader in = null;

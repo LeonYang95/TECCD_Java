@@ -24,34 +24,6 @@ import fileManagerPackage.TagReader;
  */
 public class ConnectorClient {
 
-    public static final String SERVERPROTOCOL = "http://";
-
-    public static final String SERVERPORT = ":8080";
-
-    public static final String SERVERCONTEXT = "/ChangeServer";
-
-    protected URL serverURL;
-
-    protected String serverBase;
-
-    /** creates a new client connecting to a specific server hostname or IP-address (only the
-     * hostname needs to be passed in, the methods adds the protocol, port, mapping, etc */
-    public ConnectorClient(String serverHostname) throws MalformedURLException {
-        String server = serverHostname;
-        if (!serverHostname.startsWith(SERVERPROTOCOL)) server = SERVERPROTOCOL + server;
-        this.serverBase = server + SERVERPORT;
-        this.serverURL = new URL(server + SERVERPORT + SERVERCONTEXT);
-    }
-
-    /** Sends a capsule full of changes to the server and returns the response string */
-    public String sendChangeToServer(ChangeCapsule changeCapsule) throws IOException {
-        if (!changeCapsule.empty()) {
-            return issueCommandToServer(ApplyChangesServlet.COMMIT, changeCapsule);
-        } else {
-            return "Error: no changes to send.";
-        }
-    }
-
     /** Sends a specific command and changecapsule to server and returns the result */
     protected String issueCommandToServer(String command, ChangeCapsule changeCapsule) throws IOException {
         URLConnection urlConn = serverURL.openConnection();
@@ -72,27 +44,5 @@ public class ConnectorClient {
         wr.close();
         input.close();
         return response.toString();
-    }
-
-    /** returns the base hostname and port of the server */
-    public String getServerBase() {
-        return serverBase;
-    }
-
-    /** read the change sequence number of an ontology */
-    protected Long getOntologySequenceNumber(OWLOntology ontology) {
-        Long number = null;
-        Set<OWLOntologyAnnotationAxiom> allAnnotations = ontology.getOntologyAnnotationAxioms();
-        for (OWLOntologyAnnotationAxiom annotation : allAnnotations) {
-            if (annotation.getAnnotation().getAnnotationURI().compareTo(OWLRDFVocabulary.OWL_VERSION_INFO.getURI()) == 0) {
-                if (annotation.getAnnotation().getAnnotationValue() instanceof OWLConstant) {
-                    String literal = ((OWLConstant) annotation.getAnnotation().getAnnotationValue()).getLiteral();
-                    if (literal.startsWith(TagReader.CHANGEAXIOMPREFIX)) {
-                        number = new Long(literal.substring(TagReader.CHANGEAXIOMPREFIX.length()));
-                    }
-                }
-            }
-        }
-        return number;
     }
 }
