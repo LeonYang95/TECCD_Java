@@ -1,6 +1,8 @@
 package util;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +43,24 @@ public class FileUtil {
             e.printStackTrace();
         }
         return fileNames;
+    }
+
+
+    public void writeFile(String data, String pathname) {
+        try{
+            File file =new File(pathname);
+            if(!file.exists()){
+                file.createNewFile();
+            }
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(data);
+            bw.close();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
 
 }

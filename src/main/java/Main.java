@@ -8,6 +8,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         RedisUtil.init();//开启redis服务, 清空redis历史数据
+//        RedisUtil.checkSet();
         String path = PropsLoader.getProperty("ccd.path");
         String fileType = PropsLoader.getProperty("ccd.fileType");
         int threadCount = Integer.valueOf(PropsLoader.getProperty("ccd.threadCount"));

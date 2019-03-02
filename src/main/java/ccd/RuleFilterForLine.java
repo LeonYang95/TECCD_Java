@@ -100,7 +100,7 @@ public class RuleFilterForLine {
         map.put(81,"throws_");
         map.put(82,"exceptionTypeList");
         map.put(83,"exceptionType");
-//        map.put(84,"methodBody");
+        map.put(84,"methodBody");
         map.put(85,"instanceInitializer");
         map.put(86,"staticInitializer");
         map.put(87,"constructorDeclaration");
@@ -127,34 +127,34 @@ public class RuleFilterForLine {
         map.put(106,"constantModifier");
         map.put(107,"interfaceMethodDeclaration");
         map.put(108,"interfaceMethodModifier");
-//        map.put(109,"annotationTypeDeclaration");
-//
-//        map.put(110,"annotationTypeBody");
-//        map.put(111,"annotationTypeMemberDeclaration");
-//        map.put(112,"annotationTypeElementDeclaration");
-//        map.put(113,"annotationTypeElementModifier");
-//        map.put(114,"defaultValue");
-//        map.put(115,"annotation");
-//        map.put(116,"normalAnnotation");
+        map.put(109,"annotationTypeDeclaration");
+
+        map.put(110,"annotationTypeBody");
+        map.put(111,"annotationTypeMemberDeclaration");
+        map.put(112,"annotationTypeElementDeclaration");
+        map.put(113,"annotationTypeElementModifier");
+        map.put(114,"defaultValue");
+        map.put(115,"annotation");
+        map.put(116,"normalAnnotation");
         map.put(117,"elementValuePairList");
         map.put(118,"elementValuePair");
         map.put(119,"elementValue");
 
         map.put(120,"elementValueArrayInitializer");
         map.put(121,"elementValueList");
-//        map.put(122,"markerAnnotation");
-//        map.put(123,"singleElementAnnotation");
+        map.put(122,"markerAnnotation");
+        map.put(123,"singleElementAnnotation");
         map.put(124,"arrayInitializer");
         map.put(125,"variableInitializerList");
-//        map.put(126,"block");
+        map.put(126,"block");
         map.put(127,"blockStatements");
-//        map.put(128,"blockStatement");
+        map.put(128,"blockStatement");
         map.put(129,"localVariableDeclarationStatement");
 
         map.put(130,"localVariableDeclaration");
-//        map.put(131,"statement");
+        map.put(131,"statement");
         map.put(132,"statementNoShortIf");
-//        map.put(133,"statementWithoutTrailingSubstatement");
+        map.put(133,"statementWithoutTrailingSubstatement");
         map.put(134,"emptyStatement");
         map.put(135,"labeledStatement");
         map.put(136,"labeledStatementNoShortIf");
@@ -212,9 +212,9 @@ public class RuleFilterForLine {
 //        map.put(183,"primaryNoNewArray_lfno_primary");
 //        map.put(184,"primaryNoNewArray_lfno_primary_lf_arrayAccess_lfno_primary");
 //        map.put(185,"primaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary");
-//        map.put(186,"classInstanceCreationExpression");
-//        map.put(187,"classInstanceCreationExpression_lf_primary");
-//        map.put(188,"classInstanceCreationExpression_lfno_primary");
+        map.put(186,"classInstanceCreationExpression");
+        map.put(187,"classInstanceCreationExpression_lf_primary");
+        map.put(188,"classInstanceCreationExpression_lfno_primary");
 //        map.put(189,"typeArgumentsOrDiamond");
 
         map.put(190,"fieldAccess");
@@ -236,10 +236,10 @@ public class RuleFilterForLine {
         map.put(205,"dimExpr");
         map.put(206,"constantExpression");
         map.put(207,"expression");
-//        map.put(208,"lambdaExpression");
-//        map.put(209,"lambdaParameters");
+        map.put(208,"lambdaExpression");
+        map.put(209,"lambdaParameters");
 
-//        map.put(210,"inferredFormalParameterList");
+        map.put(210,"inferredFormalParameterList");
         map.put(211,"lambdaBody");
         map.put(212,"assignmentExpression");
         map.put(213,"assignment");

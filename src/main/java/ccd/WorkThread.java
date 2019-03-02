@@ -9,6 +9,7 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import redis.clients.jedis.Jedis;
 import util.RedisUtil;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -25,7 +26,6 @@ public class WorkThread extends Thread{
         CharStream inputStream;
         Java8Parser parser;
         ParseTree parseTree;
-//        MethodVisitor methodVisitor = new MethodVisitor();
         NewMethodVisitor methodVisitor = new NewMethodVisitor();
         Jedis redis = RedisUtil.getJedis();
         long beginTime;
@@ -42,10 +42,14 @@ public class WorkThread extends Thread{
                 parser = null;
                 parseTree = null;
                 inputStream = null;
+//                File f = new File(file);
+//                if(f.exists()&&f.isFile())
+//                    f.delete();
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
+
         RedisUtil.returnResource(redis);
     }
 }

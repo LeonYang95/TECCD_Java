@@ -5,8 +5,325 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/common/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex/common/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/common/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/SampleTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/SymbolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/Error2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v2/error1/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v2/error2/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v3/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v3/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v4/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v5/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v6/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v7/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/error_v8/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v1/totalerror/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/errorcase/v2/Error1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/ASTnodeSeq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/ASTnodeVecSeq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/ASTnodeVecSeq_simple" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/MethodVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/NewMethodVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/ShowAST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/ShowAST2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/SourceExp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/SourceExp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/TTTT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/TargetExp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/TargetExp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/TargetExp3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/TargetExp4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/fold1/methodVec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/methodcase/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/methodcase/UniqueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/methodcase/UniqueTypeT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/misscase/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/nodeseq/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/optcase/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/optcase/Opt1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/optcase/opt1/Opt1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/preversion/MethodVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/preversion/NewMethodVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/preversion/NewMethodVisitor2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/preversion/NewMethodVisitor3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8BaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8BaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8Lexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8Listener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/antlr/Java8Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8BaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8BaseVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Lexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AdditionalBoundContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AdditiveExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AmbiguousNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AndExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AnnotationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AnnotationTypeBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AnnotationTypeDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AnnotationTypeElementDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AnnotationTypeElementModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AnnotationTypeMemberDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArgumentListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArrayAccessContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArrayAccess_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArrayAccess_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArrayCreationExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArrayInitializerContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ArrayTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AssertStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AssignmentContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AssignmentExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$AssignmentOperatorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$BasicForStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$BasicForStatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$BlockContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$BlockStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$BlockStatementsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$BreakStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$CastExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$CatchClauseContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$CatchFormalParameterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$CatchTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$CatchesContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassBodyDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassInstanceCreationExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassInstanceCreationExpression_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassInstanceCreationExpression_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassMemberDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassType_lf_classOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ClassType_lfno_classOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$CompilationUnitContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConditionalAndExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConditionalExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConditionalOrExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstantDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstantExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstantModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstructorBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstructorDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstructorDeclaratorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ConstructorModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ContinueStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$DefaultValueContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$DimExprContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$DimExprsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$DimsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$DoStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ElementValueArrayInitializerContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ElementValueContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ElementValueListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ElementValuePairContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ElementValuePairListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EmptyStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnhancedForStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnhancedForStatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumBodyDeclarationsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumConstantContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumConstantListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumConstantModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumConstantNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EnumDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$EqualityExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExceptionTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExceptionTypeListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExclusiveOrExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExplicitConstructorInvocationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExpressionNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExpressionStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ExtendsInterfacesContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FieldAccessContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FieldAccess_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FieldAccess_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FieldDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FieldModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$Finally_Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FloatingPointTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ForInitContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ForStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ForStatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ForUpdateContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FormalParameterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FormalParameterListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$FormalParametersContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$IfThenElseStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$IfThenElseStatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$IfThenStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ImportDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InclusiveOrExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InferredFormalParameterListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InstanceInitializerContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$IntegralTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceMemberDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceMethodDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceMethodModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceTypeListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceType_lf_classOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$InterfaceType_lfno_classOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LabeledStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LabeledStatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LambdaBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LambdaExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LambdaParametersContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LastFormalParameterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LeftHandSideContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LiteralContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LocalVariableDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$LocalVariableDeclarationStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MarkerAnnotationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodBodyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodDeclaratorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodHeaderContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodInvocationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodInvocation_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodInvocation_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodReferenceContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodReference_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MethodReference_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$MultiplicativeExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$NormalAnnotationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$NormalClassDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$NormalInterfaceDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$NumericTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PackageDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PackageModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PackageNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PackageOrTypeNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PostDecrementExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PostDecrementExpression_lf_postfixExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PostIncrementExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PostIncrementExpression_lf_postfixExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PostfixExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PreDecrementExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PreIncrementExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArrayContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lf_arrayAccessContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lf_primary_lf_arrayAccess_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lfno_arrayAccessContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lfno_primary_lf_arrayAccess_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primaryContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$PrimitiveTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ReceiverParameterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ReferenceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$RelationalExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ResourceContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ResourceListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ResourceSpecificationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ResultContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ReturnStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ShiftExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SimpleTypeNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SingleElementAnnotationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SingleStaticImportDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SingleTypeImportDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StatementExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StatementExpressionListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StatementWithoutTrailingSubstatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StaticImportOnDemandDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$StaticInitializerContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SuperclassContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SuperinterfacesContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SwitchBlockContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SwitchBlockStatementGroupContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SwitchLabelContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SwitchLabelsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SwitchStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$SynchronizedStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$ThrowStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$Throws_Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TryStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TryWithResourcesStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeArgumentContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeArgumentListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeArgumentsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeArgumentsOrDiamondContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeBoundContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeImportOnDemandDeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeNameContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeParameterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeParameterListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeParameterModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeParametersContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$TypeVariableContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannArrayTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannClassOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannClassTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannClassType_lf_unannClassOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannClassType_lfno_unannClassOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannInterfaceType_lf_unannClassOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannInterfaceType_lfno_unannClassOrInterfaceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannPrimitiveTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannReferenceTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannTypeContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnannTypeVariableContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnaryExpressionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$UnaryExpressionNotPlusMinusContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$VariableDeclaratorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$VariableDeclaratorIdContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$VariableDeclaratorListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$VariableInitializerContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$VariableInitializerListContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$VariableModifierContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$WhileStatementContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$WhileStatementNoShortIfContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$WildcardBoundsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser$WildcardContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/antlr/Java8Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ccd/MethodVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ccd/NewMethodVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ccd/PropsLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ccd/RuleFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ccd/RuleFilterForLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ccd/WorkThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TRedis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sim/TestSim.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,18 +340,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewMethodVisitor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5275#5276#0" expanded="true" />
-                <element signature="e#5323#5324#0" expanded="true" />
-                <element signature="e#5357#5358#0" expanded="true" />
-                <element signature="e#5391#5392#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="567">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -50,36 +360,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>primar</find>
-      <find>compilation</find>
-      <find>statemen</find>
-      <find>statement</find>
-      <find>methodD</find>
+      <find>expressionName</find>
+      <find>preIn</find>
+      <find>preIncrementExpression</find>
+      <find>unaryExpressionNotPlusMinus</find>
+      <find>primitiveType</find>
+      <find>castExpression</find>
+      <find>referenceType</find>
+      <find>PostfixExpression</find>
+      <find>ClassType_lf_unannClassOrInterfaceType</find>
+      <find>unannClassType_lf_unannClassOrInterfaceType</find>
+      <find>numericType</find>
+      <find>primaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary</find>
+      <find>arrayAccess_lfno_primary</find>
+      <find>primaryNoNewArray_lfno_primary</find>
+      <find>primary</find>
+      <find>primaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primary</find>
+      <find>primaryNoNewArray_lf_primary</find>
+      <find>fieldAcCESS</find>
+      <find>unan</find>
+      <find>unannReferenceType</find>
+      <find>unannPrimitiveType</find>
       <find>unannType</find>
-      <find>localVariableDeclaration</find>
-      <find>methodBody</find>
-      <find>block</find>
-      <find>blockStatements</find>
-      <find>blockStatement</find>
-      <find>ifThenElseStatement</find>
-      <find>expression</find>
-      <find>vectorSequence</find>
-      <find>128</find>
-      <find>blockKey</find>
-      <find>lite</find>
-      <find>231</find>
-      <find>27</find>
-      <find>comp</find>
-      <find>129</find>
-      <find>localVariableDeclarationStatement</find>
-      <find>m</find>
-      <find>133</find>
-      <find>statementWithoutTrailingSubstatement</find>
-      <find />
-      <find>itemStateChanged</find>
-      <find>84</find>
-      <find>126</find>
-      <find>137</find>
+      <find>unannArrayType</find>
+      <find>unannClassOrInterfaceTypeunannClassOrInterfaceType</find>
+      <find>unannInterfaceType_lfno_unannClassOrInterfaceType</find>
+      <find>unannInterfaceType_lf_unannClassOrInterfaceType</find>
+      <find>TypeVariable</find>
+      <find>unannTypeVariable</find>
+      <find>unannClassOrInterfaceType</find>
+      <find>unannClassType_lfno_unannClassOrInterfaceType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,72 +398,76 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/util/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TReadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/PropsLoader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TRedis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/3/237297.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/3/2100744.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/3/18267.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/2/237460.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/3/1123018.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/4/2186127.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/4/1907735.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/15/156485.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/15/2651775.java" />
+        <option value="$PROJECT_DIR$/ex/errorcase/v2/Error1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEva.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/2/1907735.java" />
+        <option value="$PROJECT_DIR$/ex/common/cm3/Method.java" />
+        <option value="$PROJECT_DIR$/ex/common/cclearnerfp/Method2.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/3/2411373.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/PVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/ex/TargetExp.java" />
-        <option value="$PROJECT_DIR$/ex/TargetExp3.java" />
-        <option value="$PROJECT_DIR$/ex/Test.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/methodcase/Method.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/Error2.java" />
-        <option value="$PROJECT_DIR$/ex/methodcase/UniqueType.java" />
-        <option value="$PROJECT_DIR$/ex/methodcase/UniqueTypeT.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error1/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error2/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error3/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/optcase/Opt1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error4/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/optcase/opt1/Opt1.java" />
-        <option value="$PROJECT_DIR$/ex/preversion/NewMethodVisitor.java" />
-        <option value="$PROJECT_DIR$/ex/optcase/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sim/SimHash.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sim/TestSim.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/TokenFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v4/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/preversion/MethodVisitor.java" />
-        <option value="$PROJECT_DIR$/ex/preversion/NewMethodVisitor3.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v1/error3/Error2.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v1/error1/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v2/error2/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v2/error1/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/nodeseq/Case.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v5/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/misscase/Case.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v6/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/totalerror/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v7/Error1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/error_v8/Error1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/v1/totalerror/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/v1/error_v8/Error1.java" />
-        <option value="$PROJECT_DIR$/ex/preversion/NewMethodVisitor2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/5/638277.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/5/2148476.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/7/1182232.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/7/1751481.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/8/2290064.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/8/2687790.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/9/638277.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/9/962957.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/10/748016.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/10/1750156.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/1/2085174.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java" />
         <option value="$PROJECT_DIR$/ex/common/Method.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/6/2591329.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/6/1616484.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/mt3/1/2100744.java" />
+        <option value="$PROJECT_DIR$/ex/common/cm/MethodIF.java" />
+        <option value="$PROJECT_DIR$/ex/common/cm2/Method.java" />
+        <option value="$PROJECT_DIR$/ex/common/cm5/MethodIF.java" />
+        <option value="$PROJECT_DIR$/ex/common/cm/Method.java" />
+        <option value="$PROJECT_DIR$/ex/bcb/miscase/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" />
+        <option value="$PROJECT_DIR$/ex/methodcase/UniqueTypeT.java" />
+        <option value="$PROJECT_DIR$/ex/errorcase/v1/error_v2/error1/Error1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" />
+        <option value="$PROJECT_DIR$/ex/v2error/c1/Method.java" />
         <option value="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" />
+        <option value="$PROJECT_DIR$/ex/v2error/c2/Method.java" />
+        <option value="$PROJECT_DIR$/ex/v2error/c3/Method.java" />
+        <option value="$PROJECT_DIR$/ex/v2error/c4/Method.java" />
+        <option value="$PROJECT_DIR$/ex/v2error/c5/Method.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="6" />
-    <option name="y" value="102" />
-    <option name="width" value="1807" />
-    <option name="height" value="885" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="87" />
+    <option name="y" value="23" />
+    <option name="width" value="1700" />
+    <option name="height" value="966" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,207 +478,104 @@
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="bcb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="bcb" type="462c0819:PsiDirectoryNode" />
+              <item name="miscase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="bcb" type="462c0819:PsiDirectoryNode" />
+              <item name="miscase" type="462c0819:PsiDirectoryNode" />
+              <item name="st3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="error_v5" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="v2error" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="error_v6" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="v2error" type="462c0819:PsiDirectoryNode" />
+              <item name="c1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="error_v7" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="v2error" type="462c0819:PsiDirectoryNode" />
+              <item name="c2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="error_v8" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="v2error" type="462c0819:PsiDirectoryNode" />
+              <item name="c3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="totalerror" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="v2error" type="462c0819:PsiDirectoryNode" />
+              <item name="c4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="errorcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="methodcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="misscase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="nodeseq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="optcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="optcase" type="462c0819:PsiDirectoryNode" />
-              <item name="opt1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-              <item name="preversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="antlr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sim" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+              <item name="v2error" type="462c0819:PsiDirectoryNode" />
+              <item name="c5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex/errorcase/error_v5/Error1.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/java_ws/ccd/ex/v2error/c1/Method.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex/common/cm/Method.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45257142" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\java_ws\ccd\ex\errorcase\v1" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\error_v2" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\error_v1" />
-      <recent name="F:\java_ws\ccd\ex" />
-      <recent name="F:\java_ws\ccd\ex\fold1" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_ws\ccd\case" />
+      <recent name="F:\java_ws\ccd\ex\v2error" />
+      <recent name="F:\java_ws\ccd\ex\v2error\c1" />
+      <recent name="F:\java_ws\ccd\backup" />
+      <recent name="F:\java_ws\ccd\ex\common\cm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
       <recent name="ccd" />
+      <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java_ws\ccd\ex\errorcase" />
-      <recent name="F:\java_ws\ccd\ex\common" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\v2" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\error_v8" />
-      <recent name="F:\java_ws\ccd\ex\errorcase\error_v7" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java_ws\ccd\case\bcb\miscase" />
+      <recent name="F:\java_ws\ccd\ex\bcb\st3" />
+      <recent name="F:\java_ws\ccd\ex\bcb\1" />
+      <recent name="F:\java_ws\ccd\ex\errorcase\v3\v32" />
+      <recent name="F:\java_ws\ccd\ex\errorcase\v3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,14 +611,14 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TRedis.flushAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TEva" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TRedis" />
-      <option name="METHOD_NAME" value="flushAll" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TEva" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -417,13 +628,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TRedis.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TEva.testEva" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ccd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TRedis" />
-      <option name="METHOD_NAME" value="init" />
+      <option name="MAIN_CLASS_NAME" value="TEva" />
+      <option name="METHOD_NAME" value="testEva" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -493,16 +704,16 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SimHash" />
       <item itemvalue="JUnit.TRedis.testRedisSet" />
-      <item itemvalue="JUnit.TRedis.init" />
-      <item itemvalue="JUnit.TRedis.flushAll" />
+      <item itemvalue="JUnit.TEva.testEva" />
+      <item itemvalue="JUnit.TEva" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TEva.testEva" />
+        <item itemvalue="JUnit.TEva" />
         <item itemvalue="Application.SimHash" />
         <item itemvalue="JUnit.TRedis.testRedisSet" />
-        <item itemvalue="JUnit.TRedis.flushAll" />
-        <item itemvalue="JUnit.TRedis.init" />
       </list>
     </recent_temporary>
   </component>
@@ -520,35 +731,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 14m 02s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 04h 44m 56s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 14m 54s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 04h 50m 38s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_init - 2018.12.22 at 16h 15m 25s.xml">
-      <configuration name="TRedis.init" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 04h 56m 52s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 15m 28s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 05h 02m 32s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 15m 50s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva - 2019.02.21 at 05h 07m 06s.xml">
+      <configuration name="TEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_flushAll - 2018.12.22 at 16h 20m 21s.xml">
-      <configuration name="TRedis.flushAll" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 05h 40m 52s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 20m 24s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 05h 43m 16s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 40m 48s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 07h 57m 31s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 16h 53m 23s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 08h 01m 36s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRedis_testRedisSet - 2018.12.22 at 17h 25m 50s.xml">
-      <configuration name="TRedis.testRedisSet" configurationId="JUnit" />
+    <history-entry file="TEva_testEva - 2019.02.21 at 08h 10m 18s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -557,33 +768,34 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Tool Output" order="12" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.785169" />
+      <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.13180828" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Event Log" order="9" sideWeight="0.50053304" weight="0.3456" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11014177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.19825707" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6906318" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.15812431" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="10" weight="0.5481728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17866667" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.15158124" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34640524" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="9" sideWeight="0.49946696" weight="0.24100327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18845315" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18538713" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -594,335 +806,255 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/sim/SimHash.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/RuleContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/tree/RuleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sim/TestSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/tree/TerminalNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/ParserRuleContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="247" column="33" lean-forward="true" selection-start-line="247" selection-start-column="30" selection-end-line="247" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar!/org/antlr/v4/runtime/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8Lexer.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="158" column="6" lean-forward="true" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/TokenFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="200" column="2" selection-start-line="200" selection-start-column="2" selection-end-line="202" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/PropsLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/methodcase/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/nodeseq/Case.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="745" column="18" lean-forward="true" selection-start-line="745" selection-start-column="18" selection-end-line="745" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/WorkThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v1/error1/Error1.java" />
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v1/error2/Error1.java" />
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v1/error3/Error1.java" />
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v1/error3/Error2.java" />
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8Lexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v2/error1/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/misscase/Case.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v2/error2/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v4/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v6/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v7/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/totalerror/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="56" column="2" lean-forward="true" selection-start-line="56" selection-start-column="2" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v8/Error1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/SymbolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="50" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/SampleTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="237" column="5" lean-forward="true" selection-start-line="205" selection-start-column="3" selection-end-line="237" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/SampleTree.java">
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/1/2100744.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v5/Error1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/RuleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+        <state relative-caret-position="-5292">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="67" />
+        <state relative-caret-position="382">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/WorkThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        <state relative-caret-position="31">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/NewMethodVisitor.java">
+    <entry file="file://$PROJECT_DIR$/ex/v2error/c1/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="62" column="73" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="73" />
+        <state relative-caret-position="1701">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/preversion/MethodVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="160" column="19" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        <state relative-caret-position="-129">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="353">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5275#5276#0" expanded="true" />
-            <element signature="e#5323#5324#0" expanded="true" />
-            <element signature="e#5357#5358#0" expanded="true" />
-            <element signature="e#5391#5392#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/v2error/c2/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/v2error/c3/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/v2error/c4/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/v2error/c5/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/1/2085174.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="31" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/2/237460.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/2/1907735.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/3/2411373.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/3/1123018.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/4/1907735.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/5/638277.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/5/2148476.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/6/1616484.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/6/2591329.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/7/1751481.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/7/1182232.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/8/2687790.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/8/2290064.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/common/cm/MethodIF.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/common/cm/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/common/cm2/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/common/cm3/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/optcase/opt1/Opt1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/optcase/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/optcase/Opt1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/nodeseq/Case.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/misscase/Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2808">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/bcb/mt3/4/2186127.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/result">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c1/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c2/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c3/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c4/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/v2error/c5/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.edgelist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
         </state>
       </provider>
     </entry>
