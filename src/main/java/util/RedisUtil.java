@@ -41,6 +41,7 @@ public class RedisUtil {
         try {
             if (jedisPool != null) {
                 Jedis resource = jedisPool.getResource();
+                //index5: bcb #2 文件包, 一层sent2vec 预处理
                 resource.select(5);
                 return resource;
             } else {
