@@ -12,8 +12,8 @@ public class TEva {
         List<String> detectdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\result.csv"));
 
 //        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_jedit.csv"));
-        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_opennlp.csv"));
-//        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_ant.csv"));
+//        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_opennlp.csv"));
+        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_ant.csv"));
 //        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_maven.csv"));
 //        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_common.csv"));
 //        List<String> benchdata = CSVUtils.importCsv(new File("C:\\Users\\Administrator\\Desktop\\exp\\bench\\bench_jdk.csv"));
@@ -22,16 +22,16 @@ public class TEva {
         System.out.println("benchdata: "+benchdata.size());
         int tpnum = 0;
         for (int i = 0; i < detectdata.size(); i++) {
-//            System.out.print("i: "+i+", ");
+            System.out.print("i: "+i+", ");
             for (int j = 0; j < benchdata.size(); j++) {
                 if(isEqual(detectdata.get(i), benchdata.get(j))){
                     tpnum ++;
-//                    System.out.println("tpnum: "+tpnum);
+                    System.out.println("tpnum: "+tpnum);
                 }
             }
         }
 
-//        System.out.println(detectdata.get(6));
+        System.out.println(detectdata.get(1152));
 //        System.out.println(detectdata.get(18));
 //        System.out.println(detectdata.get(20));
 //        System.out.println(detectdata.get(21));
@@ -65,17 +65,14 @@ public class TEva {
 
     public boolean isEqual(String l, String r){
         String[] as = l.split(",");
-        String dleft = as[0] + as[1] + as[2];
-        String dright = as[3] + as[4] + as[5];
+        String dleft = as[0] + as[1] + as[2] + as[3];
+        String dright = as[4] + as[5] + as[6] + as[7];
         String[] bs = r.split(",");
-        String bleft = bs[0] + bs[1] + bs[2];
-        String bright = bs[3] + bs[4] + bs[5];
-
+        String bleft = bs[0] + bs[1] + bs[2] + bs[3];
+        String bright = bs[4] + bs[5] + bs[6] + bs[7];
         boolean left = dleft.equals(bleft) && dright.equals(bright);
         boolean right = dleft.equals(bright) && dright.equals(bleft);
-
         return left || right;
-
     }
 
 //    i: 1239, i: 1240, *******:

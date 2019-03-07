@@ -41,6 +41,7 @@ public class RedisUtil {
         try {
             if (jedisPool != null) {
                 Jedis resource = jedisPool.getResource();
+                resource.select(5);
                 return resource;
             } else {
                 return null;

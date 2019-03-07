@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="9a5d10d0-18d3-40dd-914e-2bf6f739445c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java" beforeDir="false" afterPath="$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/bcb/miscase/mt3/2/237460.java" beforeDir="false" afterPath="$PROJECT_DIR$/case/bcb/miscase/mt3/2/237460.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/bcb/miscase/mt3/4/1907735.java" beforeDir="false" afterPath="$PROJECT_DIR$/case/bcb/miscase/mt3/4/1907735.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/bcb/miscase/mt3/6/1616484.java" beforeDir="false" afterPath="$PROJECT_DIR$/case/bcb/miscase/mt3/6/1616484.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/bcb/miscase/mt3/6/2591329.java" beforeDir="false" afterPath="$PROJECT_DIR$/case/bcb/miscase/mt3/6/2591329.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/v2error/c1/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/case/v2error/c1/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TEva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TEva.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,34 +29,41 @@
     <SUITE FILE_PATH="coverage/ccd$TReadFile_testReadJavaFile.ic" NAME="TReadFile.testReadJavaFile Coverage Results" MODIFIED="1545381925290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ccd$Main.ic" NAME="Main Coverage Results" MODIFIED="1542956879104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="1721704.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/5/1721704.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="151">
+                    <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MethodVisitor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
+      <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/exp/e4/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.java">
+      <file leaf-file-name="Java8.g4" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/RedisUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1512">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="689">
+              <caret line="230" column="10" selection-start-line="230" selection-end-line="230" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -61,25 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>expressionName</find>
-      <find>preIn</find>
-      <find>preIncrementExpression</find>
-      <find>unaryExpressionNotPlusMinus</find>
-      <find>primitiveType</find>
-      <find>castExpression</find>
-      <find>referenceType</find>
-      <find>PostfixExpression</find>
-      <find>ClassType_lf_unannClassOrInterfaceType</find>
-      <find>unannClassType_lf_unannClassOrInterfaceType</find>
-      <find>numericType</find>
-      <find>primaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary</find>
-      <find>arrayAccess_lfno_primary</find>
-      <find>primaryNoNewArray_lfno_primary</find>
-      <find>primary</find>
-      <find>primaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primary</find>
-      <find>primaryNoNewArray_lf_primary</find>
-      <find>fieldAcCESS</find>
-      <find>unan</find>
       <find>unannReferenceType</find>
       <find>unannPrimitiveType</find>
       <find>unannType</find>
@@ -91,6 +90,25 @@
       <find>unannTypeVariable</find>
       <find>unannClassOrInterfaceType</find>
       <find>unannClassType_lfno_unannClassOrInterfaceType</find>
+      <find>90</find>
+      <find>statement</find>
+      <find>compilationUnit</find>
+      <find>158</find>
+      <find>22</find>
+      <find>54,55,56,57,207,212,216,231,176,183,0,128,129,130,58,59,3,4,54,55,56,128,129,130,58,60,61,64,54,55,56,57,207,212,216,231,176,183,188,128,129,130,58,60,61,64,54,55,56,128,131,149,207,212,216,231,176,183,207,212,213,214,29,215,207,212,216,231,176,183,198,27,231,176,183,0,131,133,126,128,131,133,137,138,196,27,128,131,133,163,207,212,216,231,29</find>
+      <find>expression</find>
+      <find>conditionalExpression</find>
+      <find>preIncrementExpression</find>
+      <find>230</find>
+      <find>86</find>
+      <find>126</find>
+      <find>207</find>
+      <find>176</find>
+      <find>231</find>
+      <find>212</find>
+      <find>cim</find>
+      <find>com</find>
+      <find>comp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,40 +117,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/5/638277.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/5/2148476.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/7/1182232.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/7/1751481.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/8/2290064.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/8/2687790.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/9/638277.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/9/962957.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/10/748016.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/10/1750156.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/1/2085174.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilter.java" />
-        <option value="$PROJECT_DIR$/ex/common/Method.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/6/2591329.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/6/1616484.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/mt3/1/2100744.java" />
-        <option value="$PROJECT_DIR$/ex/common/cm/MethodIF.java" />
-        <option value="$PROJECT_DIR$/ex/common/cm2/Method.java" />
-        <option value="$PROJECT_DIR$/ex/common/cm5/MethodIF.java" />
-        <option value="$PROJECT_DIR$/ex/common/cm/Method.java" />
-        <option value="$PROJECT_DIR$/ex/bcb/miscase/Method.java" />
-        <option value="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" />
-        <option value="$PROJECT_DIR$/ex/methodcase/UniqueTypeT.java" />
-        <option value="$PROJECT_DIR$/ex/errorcase/v1/error_v2/error1/Error1.java" />
         <option value="$PROJECT_DIR$/ex/v2error/c1/Method.java" />
         <option value="$PROJECT_DIR$/ex/v2error/c2/Method.java" />
         <option value="$PROJECT_DIR$/ex/v2error/c3/Method.java" />
         <option value="$PROJECT_DIR$/ex/v2error/c4/Method.java" />
         <option value="$PROJECT_DIR$/ex/v2error/c5/Method.java" />
         <option value="$PROJECT_DIR$/src/main/java/ccd/NewMethodVisitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ccd/WorkThread.java" />
         <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/11/1458174.java" />
@@ -150,13 +140,42 @@
         <option value="$PROJECT_DIR$/case/bcb/miscase/st3/5/1721704.java" />
         <option value="$PROJECT_DIR$/case/bcb/miscase/st3/6/798877.java" />
         <option value="$PROJECT_DIR$/case/bcb/miscase/st3/6/2477731.java" />
+        <option value="$PROJECT_DIR$/case/v2error/c1/Method.java" />
+        <option value="$PROJECT_DIR$/case/v2error/c3/Method.java" />
+        <option value="$PROJECT_DIR$/case/v2error/c2/Method.java" />
+        <option value="$PROJECT_DIR$/case/v2error/c6/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/3/2411373.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e5/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e6/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e7/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e8/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e1/Method2.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/2/1907735.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/2/237460.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/4/1907735.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/6/2591329.java" />
+        <option value="$PROJECT_DIR$/case/bcb/miscase/mt3/6/1616484.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e3/Method.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TEva.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e2/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e4/Method.java" />
+        <option value="$PROJECT_DIR$/case/exp/h1/e1/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java" />
+        <option value="$PROJECT_DIR$/case/exp/e1/Method.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java" />
+        <option value="$PROJECT_DIR$/case/exp/e4/Method.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="1700" />
-    <option name="height" value="966" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1214" />
+    <option name="y" value="386" />
+    <option name="width" value="1264" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -166,19 +185,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccd" type="462c0819:PsiDirectoryNode" />
-              <item name="backup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
@@ -227,40 +242,52 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ccd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ccd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ccd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/java_ws/ccd/ex/v2error/c1/Method.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex/common/cm/Method.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case/exp/e4/Method.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45257142" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java_ws\ccd\doc" />
-      <recent name="F:\java_ws\ccd\case" />
-      <recent name="F:\java_ws\ccd\ex\v2error" />
-      <recent name="F:\java_ws\ccd\ex\v2error\c1" />
-      <recent name="F:\java_ws\ccd\backup" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="util" />
-      <recent name="ccd" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\java_ws\ccd\case\bcb\miscase" />
       <recent name="F:\java_ws\ccd\ex\bcb\st3" />
       <recent name="F:\java_ws\ccd\ex\bcb\1" />
       <recent name="F:\java_ws\ccd\ex\errorcase\v3\v32" />
       <recent name="F:\java_ws\ccd\ex\errorcase\v3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="ccd" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_ws\ccd\case\exp" />
+      <recent name="F:\java_ws\ccd\case\exp\h1" />
+      <recent name="F:\java_ws\ccd\case\exp\h1\e1" />
+      <recent name="F:\java_ws\ccd\case\v2error" />
+      <recent name="F:\java_ws\ccd\doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,75 +475,88 @@
       <option name="project" value="LOCAL" />
       <updated>1551525725691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1551528728778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551528728778</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1551528737750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551528737750</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TEva_testEva - 2019.02.21 at 04h 44m 56s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 33m 25s.xml">
       <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 04h 50m 38s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 35m 28s.xml">
       <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 04h 56m 52s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 36m 01s.xml">
       <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 05h 02m 32s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 36m 21s.xml">
       <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TEva - 2019.02.21 at 05h 07m 06s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 36m 51s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 38m 06s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 38m 24s.xml">
+      <configuration name="TEva.testEva" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEva - 2019.03.06 at 15h 39m 34s.xml">
       <configuration name="TEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 05h 40m 52s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 40m 22s.xml">
       <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 05h 43m 16s.xml">
-      <configuration name="TEva.testEva" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 07h 57m 31s.xml">
-      <configuration name="TEva.testEva" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 08h 01m 36s.xml">
-      <configuration name="TEva.testEva" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEva_testEva - 2019.02.21 at 08h 10m 18s.xml">
+    <history-entry file="TEva_testEva - 2019.03.06 at 15h 40m 35s.xml">
       <configuration name="TEva.testEva" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1700" height="966" extended-state="0" />
-    <editor active="true" />
+    <frame x="1214" y="386" width="1264" height="993" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Tool Output" order="11" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.53985506" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38283828" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Event Log" order="9" sideWeight="0.50053304" weight="0.3456" />
+      <window_info anchor="right" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3456" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34661835" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.007246377" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.31463146" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6906318" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20439292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29758936" />
       <window_info anchor="bottom" id="Statistic" order="12" weight="0.15158124" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34640524" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="9" sideWeight="0.49946696" weight="0.24100327" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="9" sideWeight="0.49946696" visible="true" weight="0.25380117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18538713" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18538713" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34640524" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -531,298 +571,316 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/errorcase/v1/error_v3/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/result">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c3/Method.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c4/Method.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.edgelist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CSVUtils.java">
+    <entry file="file://$PROJECT_DIR$/case/exp/h1/e8/Method.java" />
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/7/1751481.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="56" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c5/Method.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TEva.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/WorkThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/6/1616484.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/6/2591329.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/7/1182232.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/7/1751481.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
+        <state relative-caret-position="-710" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/8/2687790.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/9/638277.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/9/962957.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/10/748016.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/10/1750156.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
+        <state relative-caret-position="-486" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/8/2290064.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/11/1458174.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/11/2129642.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
+        <state relative-caret-position="-224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/12/1991464.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="1231">
           <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/12/1940646.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-837">
+        <state relative-caret-position="54">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/13/1060821.java">
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/9/638277.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/9/962957.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/10/1750156.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/11/2129642.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/14/747655.java">
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/11/1458174.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="624">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/14/1772258.java">
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/2/1907735.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="278">
+          <caret line="22" column="50" selection-start-line="21" selection-start-column="1" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/15/156485.java">
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/2/237460.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="497">
+          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/15/2651775.java">
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/3/1123018.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="467">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/1/638277.java">
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/3/2411373.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="618">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/4/2186127.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/4/1907735.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/5/638277.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/5/2148476.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/6/2591329.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/6/1616484.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/1/2085174.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/mt3/1/2100744.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/PropsLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/h1/e1/Method2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TEva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/h1/e2/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/h1/e4/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/h1/e3/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/1/798877.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
+        <state relative-caret-position="27">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/2/2186031.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/2/2571726.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/3/18267.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2822" />
+        <state relative-caret-position="-2592" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/4/1213865.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/2/2186031.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/4/1721704.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccd/RuleFilterForLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="6642">
+          <caret line="247" column="45" lean-forward="true" selection-start-line="247" selection-start-column="45" selection-end-line="247" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/5/1213865.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189" />
+        <state relative-caret-position="324">
+          <caret line="24" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/5/1721704.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/6/798877.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/6/2477731.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c1/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/v2error/c2/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="151">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccd/MethodVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="251">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/h1/e1/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/4/1213865.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/4/1721704.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/6/798877.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/6/2477731.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/Method.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/bcb/miscase/st3/1/638277.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/e1/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/exp/e4/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/antlr/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="230" column="10" selection-start-line="230" selection-end-line="230" selection-end-column="15" />
         </state>
       </provider>
     </entry>

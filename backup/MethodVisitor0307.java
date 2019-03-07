@@ -63,6 +63,35 @@ public class MethodVisitor extends Java8BaseVisitor<Integer> {
                 if (RuleFilterForLine.ruleFilter().containsKey(ruleIndex)) {
                     statement.append(ruleIndex + ",");
                 }
+
+                /*
+                if(ruleIndex == Java8Parser.RULE_blockStatement){
+                    ParserRuleContext ct = (ParserRuleContext)node;
+                    //是否是直接从属方法的语句
+                    int blockType = ct.getParent().getParent().getParent().getRuleContext().getRuleIndex();
+                    if(blockType == Java8Parser.RULE_methodBody){
+                        Stack<ParseTree> blockStack = new Stack<>();
+                        blockStack.push(ct);
+                        int blockRuleIndex;
+                        while (!blockStack.empty()) {
+                            ParseTree blockNode = blockStack.pop();
+                            if (blockNode instanceof RuleNode) {
+                                blockRuleIndex = ((RuleNode) blockNode).getRuleContext().getRuleIndex();
+//                                if (RuleFilterForLine.ruleFilter().containsKey(blockRuleIndex)) {
+                                    statement.append(blockRuleIndex+",");
+//                                }
+                                for (int len = blockNode.getChildCount(), i = len - 1; i >= 0; i--) {
+                                    blockStack.push(blockNode.getChild(i));
+                                }
+                            }
+                        }
+                        if(statement.length()>=1){
+                            statement.deleteCharAt(statement.length()-1);
+                            statement.append(";");
+                        }
+                    }
+                }
+                */
                 for(int len = node.getChildCount(), i = len - 1; i >= 0; i --){
                     stack.push(node.getChild(i));
                 }

@@ -71,19 +71,19 @@ public class RuleFilterForLine {
         map.put(55,"variableDeclarator");
         map.put(56,"variableDeclaratorId");
         map.put(57,"variableInitializer");
-//        map.put(58,"unannType");
-//        map.put(59,"unannPrimitiveType");
+        map.put(58,"unannType");
+        map.put(59,"unannPrimitiveType");
 
-//        map.put(60,"unannReferenceType");
-//        map.put(61,"unannClassOrInterfaceType");
-//        map.put(62,"unannClassType");
-//        map.put(63,"unannClassType_lf_unannClassOrInterfaceType");
-//        map.put(64,"unannClassType_lfno_unannClassOrInterfaceType");
-//        map.put(65,"unannInterfaceType");
-//        map.put(66,"unannInterfaceType_lf_unannClassOrInterfaceType");
-//        map.put(67,"unannInterfaceType_lfno_unannClassOrInterfaceType");
-//        map.put(68,"unannTypeVariable");
-//        map.put(69,"unannArrayType");
+        map.put(60,"unannReferenceType");
+        map.put(61,"unannClassOrInterfaceType");
+        map.put(62,"unannClassType");
+        map.put(63,"unannClassType_lf_unannClassOrInterfaceType");
+        map.put(64,"unannClassType_lfno_unannClassOrInterfaceType");
+        map.put(65,"unannInterfaceType");
+        map.put(66,"unannInterfaceType_lf_unannClassOrInterfaceType");
+        map.put(67,"unannInterfaceType_lfno_unannClassOrInterfaceType");
+        map.put(68,"unannTypeVariable");
+        map.put(69,"unannArrayType");
 
         map.put(70,"methodDeclaration");
         map.put(71,"methodModifier");
@@ -201,28 +201,28 @@ public class RuleFilterForLine {
         map.put(173,"resourceSpecification");
         map.put(174,"resourceList");
         map.put(175,"resource");
-//        map.put(176,"primary");
-//        map.put(177,"primaryNoNewArray");
-//        map.put(178,"primaryNoNewArray_lf_arrayAccess");
-//        map.put(179,"primaryNoNewArray_lfno_arrayAccess");
+        map.put(176,"primary");
+        map.put(177,"primaryNoNewArray");
+        map.put(178,"primaryNoNewArray_lf_arrayAccess");
+        map.put(179,"primaryNoNewArray_lfno_arrayAccess");
 
-//        map.put(180,"primaryNoNewArray_lf_primary");
-//        map.put(181,"primaryNoNewArray_lf_primary_lf_arrayAccess_lf_primary");
-//        map.put(182,"primaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primary");
-//        map.put(183,"primaryNoNewArray_lfno_primary");
-//        map.put(184,"primaryNoNewArray_lfno_primary_lf_arrayAccess_lfno_primary");
-//        map.put(185,"primaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary");
+        map.put(180,"primaryNoNewArray_lf_primary");
+        map.put(181,"primaryNoNewArray_lf_primary_lf_arrayAccess_lf_primary");
+        map.put(182,"primaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primary");
+        map.put(183,"primaryNoNewArray_lfno_primary");
+        map.put(184,"primaryNoNewArray_lfno_primary_lf_arrayAccess_lfno_primary");
+        map.put(185,"primaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary");
         map.put(186,"classInstanceCreationExpression");
         map.put(187,"classInstanceCreationExpression_lf_primary");
         map.put(188,"classInstanceCreationExpression_lfno_primary");
-//        map.put(189,"typeArgumentsOrDiamond");
+        map.put(189,"typeArgumentsOrDiamond");
 
         map.put(190,"fieldAccess");
-//        map.put(191,"fieldAccess_lf_primary");
-//        map.put(192,"fieldAccess_lfno_primary");
-//        map.put(193,"arrayAccess");
-//        map.put(194,"arrayAccess_lf_primary");
-//        map.put(195,"arrayAccess_lfno_primary");
+        map.put(191,"fieldAccess_lf_primary");
+        map.put(192,"fieldAccess_lfno_primary");
+        map.put(193,"arrayAccess");
+        map.put(194,"arrayAccess_lf_primary");
+        map.put(195,"arrayAccess_lfno_primary");
         map.put(196,"methodInvocation");
         map.put(197,"methodInvocation_lf_primary");
         map.put(198,"methodInvocation_lfno_primary");
@@ -243,9 +243,9 @@ public class RuleFilterForLine {
         map.put(211,"lambdaBody");
         map.put(212,"assignmentExpression");
         map.put(213,"assignment");
-//        map.put(214,"leftHandSide");
-//        map.put(215,"assignmentOperator");
-//        map.put(216,"conditionalExpression");
+        map.put(214,"leftHandSide");
+        map.put(215,"assignmentOperator");
+        map.put(216,"conditionalExpression");
 //        map.put(217,"conditionalOrExpression");
 //        map.put(218,"conditionalAndExpression");
 //        map.put(219,"inclusiveOrExpression");
@@ -261,7 +261,7 @@ public class RuleFilterForLine {
 //        map.put(228,"preIncrementExpression");
 //        map.put(229,"preDecrementExpression");
 
-//        map.put(230,"unaryExpressionNotPlusMinus");
+        map.put(230,"unaryExpressionNotPlusMinus");
         map.put(231,"postfixExpression");
         map.put(232,"postIncrementExpression");
         map.put(233,"postIncrementExpression_lf_postfixExpression");
