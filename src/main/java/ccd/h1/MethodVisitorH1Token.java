@@ -1,23 +1,29 @@
-package ccd;
+package ccd.h1;
 
 import antlr.Java8BaseVisitor;
 import antlr.Java8Lexer;
 import antlr.Java8Parser;
-import ccd.h2.RuleFilterForLine;
+import ccd.PropsLoader;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.RuleNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 import redis.clients.jedis.Jedis;
 
-import java.util.*;
+import java.util.Stack;
 
-public class MethodVisitor extends Java8BaseVisitor<Integer> {
+public class MethodVisitorH1Token extends Java8BaseVisitor<Integer> {
     private static int methodLimitedLine = Integer.valueOf(PropsLoader.getProperty("ccd.methodLimitedLine"));
     private final String ccdSeparate = "ccdMethodSeparate";
     private int startLine;
     private String pathFilename;//方法所在文件的路径以及文件名
     private Jedis redis;
+
+//    @Override
+//    public Integer visitMethodDeclaration(Java8Parser.MethodDeclarationContext ctx) {
+//        startLine = ctx.start.getLine();
+//        return visitChildren(ctx);
+//    }
 
     @Override
     public Integer visitMethodHeader(Java8Parser.MethodHeaderContext ctx) {

@@ -1,10 +1,23 @@
-package ccd;
+package ccd.h1;
 
 import java.util.HashMap;
 import java.util.Map;
 
 //规则过滤
 public class RuleFilterForLine {
+    public static Map<Integer, String> tokenFilter(){
+        Map<Integer, String> map = new HashMap<>();
+        map.put(4,"BREAK");
+        map.put(5,"BYTE");
+        map.put(8,"CHAR");
+        map.put(11,"CONTINUE");
+        map.put(14,"DOUBLE");
+        map.put(20,"FLOAT");
+        map.put(27,"INT");
+        map.put(29,"LONG");
+        map.put(37,"SHORT");
+        return map;
+    }
 
     public static Map<Integer, String> ruleFilter(){
         Map<Integer, String> map = new HashMap<>();
@@ -246,10 +259,10 @@ public class RuleFilterForLine {
         map.put(214,"leftHandSide");
         map.put(215,"assignmentOperator");
         map.put(216,"conditionalExpression");
-//        map.put(217,"conditionalOrExpression");
+////        map.put(217,"conditionalOrExpression");
 //        map.put(218,"conditionalAndExpression");
 //        map.put(219,"inclusiveOrExpression");
-
+//
 //        map.put(220,"exclusiveOrExpression");
 //        map.put(221,"andExpression");
 //        map.put(222,"equalityExpression");
@@ -261,12 +274,12 @@ public class RuleFilterForLine {
 //        map.put(228,"preIncrementExpression");
 //        map.put(229,"preDecrementExpression");
 
-        map.put(230,"unaryExpressionNotPlusMinus");
+//        map.put(230,"unaryExpressionNotPlusMinus");
         map.put(231,"postfixExpression");
-        map.put(232,"postIncrementExpression");
-        map.put(233,"postIncrementExpression_lf_postfixExpression");
-        map.put(234,"postDecrementExpression");
-        map.put(235,"postDecrementExpression_lf_postfixExpression");
+//        map.put(232,"postIncrementExpression");
+//        map.put(233,"postIncrementExpression_lf_postfixExpression");
+//        map.put(234,"postDecrementExpression");
+//        map.put(235,"postDecrementExpression_lf_postfixExpression");
         map.put(236,"castExpression");
 
         return map;

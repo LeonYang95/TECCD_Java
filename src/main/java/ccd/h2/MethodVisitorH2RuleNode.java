@@ -1,18 +1,16 @@
-package ccd;
+package ccd.h2;
 
 import antlr.Java8BaseVisitor;
-import antlr.Java8Lexer;
 import antlr.Java8Parser;
-import ccd.h2.RuleFilterForLine;
+import ccd.PropsLoader;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.RuleNode;
-import org.antlr.v4.runtime.tree.TerminalNode;
 import redis.clients.jedis.Jedis;
 
 import java.util.*;
 
-public class MethodVisitor extends Java8BaseVisitor<Integer> {
+public class MethodVisitorH2RuleNode extends Java8BaseVisitor<Integer> {
     private static int methodLimitedLine = Integer.valueOf(PropsLoader.getProperty("ccd.methodLimitedLine"));
     private final String ccdSeparate = "ccdMethodSeparate";
     private int startLine;
@@ -26,7 +24,13 @@ public class MethodVisitor extends Java8BaseVisitor<Integer> {
     }
 
     @Override
+    public Integer visitBlockStatement(Java8Parser.BlockStatementContext ctx) {
+        return visitChildren(ctx);
+    }
+
+    @Override
     public Integer visitMethodBody(Java8Parser.MethodBodyContext ctx) {
+        //将AST转化成network形式:
         int stopLine = ctx.stop.getLine();
         if((stopLine - startLine + 1) < methodLimitedLine)//方法代码行过滤阈值, 低于阈值的不参与检测
             return null;
@@ -40,54 +44,77 @@ public class MethodVisitor extends Java8BaseVisitor<Integer> {
         while(!stack.empty()){
             ParseTree node = stack.pop();
             //beta优化: 按代码行序列相似求beta
-            //token
-            if(node instanceof TerminalNode){
-                int tokenType = ((TerminalNode) node).getSymbol().getType();
-                if(!(tokenType>= Java8Lexer.LPAREN && tokenType<=Java8Lexer.URSHIFT_ASSIGN)){
-                    if(RuleFilterForLine.tokenFilter().containsKey(tokenType)){
-                        tokenType = Java8Lexer.INT;
-                    }
-                    ParserRuleContext ct = (ParserRuleContext)node.getParent();
+            if(node instanceof RuleNode){
+                int nodeIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
+                if (RuleFilterForLine.ruleFilter().containsKey(nodeIndex)) {
+                    ParserRuleContext ct = (ParserRuleContext)node;
                     int currentLine = ct.getStart().getLine();
                     if(beforeLine == -1){
                         beforeLine = currentLine;
                     }
                     if(currentLine != beforeLine){
                         line.deleteCharAt(line.length()-1);
-                        line.append(";").append(tokenType+",");
+                        line.append(";").append(nodeIndex+",");
                         beforeLine = currentLine;
                     }else {
-                        line.append(tokenType+",");
+                        line.append(nodeIndex+",");
                     }
                 }
             }
-            //Rule Node
             if(node instanceof RuleNode){
                 ruleIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
-                if (RuleFilterForLine.ruleFilter().containsKey(ruleIndex)) {
-                    statement.append(ruleIndex + ",");
+                if(ruleIndex == Java8Parser.RULE_blockStatement){
+                    ParserRuleContext ct = (ParserRuleContext)node;
+                    //是否是直接从属方法的语句
+                    int blockType = ct.getParent().getParent().getParent().getRuleContext().getRuleIndex();
+                    if(blockType == Java8Parser.RULE_methodBody){
+                        Stack<ParseTree> blockStack = new Stack<>();
+                        blockStack.push(ct);
+                        int blockRuleIndex;
+                        while (!blockStack.empty()) {
+                            ParseTree blockNode = blockStack.pop();
+                            if (blockNode instanceof RuleNode) {
+                                blockRuleIndex = ((RuleNode) blockNode).getRuleContext().getRuleIndex();
+                                if (RuleFilterForLine.ruleFilter().containsKey(blockRuleIndex)) {
+                                    statement.append(blockRuleIndex+",");
+                                }
+                                for (int len = blockNode.getChildCount(), i = len - 1; i >= 0; i--) {
+                                    blockStack.push(blockNode.getChild(i));
+                                }
+                            }
+                        }
+                        statement.deleteCharAt(statement.length()-1);
+                        statement.append(";");
+                    }
                 }
                 for(int len = node.getChildCount(), i = len - 1; i >= 0; i --){
                     stack.push(node.getChild(i));
                 }
             }
         }
-        if(statement.length()>=1){//method statements
-            statement.deleteCharAt(statement.length()-1);
-        }
-        if(line.length()>=1){//method line
-            line.deleteCharAt(line.length()-1).append(";");
-        }
+
+        //method statements
+        statement.deleteCharAt(statement.length()-1);
+
+        //method line
+        line.deleteCharAt(line.length()-1).append(";");
+//        System.out.println(line.toString());
+
         String value = line.toString() +ccdSeparate+ statement.toString();
         redis.set(key, value);
 //        System.out.println("value: "+value);
 //        System.out.println("=================================");
+//        String[] show = statement.toString().split(";");
+//        for (int i = 0; i < show.length; i++) {
+//            System.out.println((i+1)+": "+show[i]);
+//        }
         return visitChildren(ctx);
     }
 
     public void setPathFilename(String pathFilename) {
         this.pathFilename = pathFilename;
     }
+
     public void setRedis(Jedis redis) {
         this.redis = redis;
     }

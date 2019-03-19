@@ -1,20 +1,17 @@
-package ccd;
+package ccd.linenode;
 
 import antlr.Java8BaseVisitor;
-import antlr.Java8Lexer;
 import antlr.Java8Parser;
-import ccd.h2.RuleFilterForLine;
+import ccd.PropsLoader;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.RuleNode;
-import org.antlr.v4.runtime.tree.TerminalNode;
 import redis.clients.jedis.Jedis;
 
-import java.util.*;
+import java.util.Stack;
 
-public class MethodVisitor extends Java8BaseVisitor<Integer> {
+public class LineVisitor extends Java8BaseVisitor<Integer> {
     private static int methodLimitedLine = Integer.valueOf(PropsLoader.getProperty("ccd.methodLimitedLine"));
-    private final String ccdSeparate = "ccdMethodSeparate";
     private int startLine;
     private String pathFilename;//方法所在文件的路径以及文件名
     private Jedis redis;
@@ -33,52 +30,39 @@ public class MethodVisitor extends Java8BaseVisitor<Integer> {
         String key = pathFilename + "(" + startLine + "-" + stopLine + ")";
         Stack<ParseTree> stack = new Stack<>();
         stack.push(ctx);
-        int ruleIndex;
-        StringBuilder statement = new StringBuilder();
-        StringBuilder line = new StringBuilder();
+        StringBuilder linenodes = new StringBuilder();
         int beforeLine = -1;
         while(!stack.empty()){
             ParseTree node = stack.pop();
-            //beta优化: 按代码行序列相似求beta
-            //token
-            if(node instanceof TerminalNode){
-                int tokenType = ((TerminalNode) node).getSymbol().getType();
-                if(!(tokenType>= Java8Lexer.LPAREN && tokenType<=Java8Lexer.URSHIFT_ASSIGN)){
-                    if(RuleFilterForLine.tokenFilter().containsKey(tokenType)){
-                        tokenType = Java8Lexer.INT;
-                    }
-                    ParserRuleContext ct = (ParserRuleContext)node.getParent();
+            if(node instanceof RuleNode){
+                int nodeIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
+                if (RuleFilterForLine.ruleFilter().containsKey(nodeIndex)) {
+                    ParserRuleContext ct = (ParserRuleContext)node;
                     int currentLine = ct.getStart().getLine();
                     if(beforeLine == -1){
                         beforeLine = currentLine;
                     }
                     if(currentLine != beforeLine){
-                        line.deleteCharAt(line.length()-1);
-                        line.append(";").append(tokenType+",");
+                        linenodes.deleteCharAt(linenodes.length()-1);
+                        linenodes.append(";").append(nodeIndex+",");
                         beforeLine = currentLine;
                     }else {
-                        line.append(tokenType+",");
+                        linenodes.append(nodeIndex+",");
                     }
                 }
             }
-            //Rule Node
-            if(node instanceof RuleNode){
-                ruleIndex = ((RuleNode) node).getRuleContext().getRuleIndex();
-                if (RuleFilterForLine.ruleFilter().containsKey(ruleIndex)) {
-                    statement.append(ruleIndex + ",");
-                }
-                for(int len = node.getChildCount(), i = len - 1; i >= 0; i --){
-                    stack.push(node.getChild(i));
-                }
+            for(int len = node.getChildCount(), i = len - 1; i >= 0; i --){
+                stack.push(node.getChild(i));
             }
         }
-        if(statement.length()>=1){//method statements
-            statement.deleteCharAt(statement.length()-1);
+        if(linenodes.length()>=1){//method line
+            linenodes.deleteCharAt(linenodes.length()-1);
         }
-        if(line.length()>=1){//method line
-            line.deleteCharAt(line.length()-1).append(";");
-        }
-        String value = line.toString() +ccdSeparate+ statement.toString();
+        String value = linenodes.toString();
+        String[] show = linenodes.toString().split(";");
+//        for (int i = 0; i < show.length; i++) {
+//            System.out.println((i+1)+": "+show[i]);
+//        }
         redis.set(key, value);
 //        System.out.println("value: "+value);
 //        System.out.println("=================================");

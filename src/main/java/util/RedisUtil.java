@@ -10,6 +10,7 @@ import java.util.Set;
 
 public class RedisUtil {
     private static JedisPool jedisPool = null;
+    private static int rid;
 
     /**
      * 初始化Redis连接池
@@ -20,6 +21,7 @@ public class RedisUtil {
         int MAX_ACTIVE = Integer.valueOf(PropsLoader.getProperty("redis.max_active"));
         int MAX_IDLE = Integer.valueOf(PropsLoader.getProperty("redis.max_idle"));
         int MAX_WAIT = Integer.valueOf(PropsLoader.getProperty("redis.max_wait"));
+        rid = Integer.valueOf(PropsLoader.getProperty("redis.rid"));
         boolean TEST_ON_BORROW = Boolean.valueOf(PropsLoader.getProperty("redis.test_on_borrow"));
         try {
             JedisPoolConfig config = new JedisPoolConfig();
@@ -42,7 +44,7 @@ public class RedisUtil {
             if (jedisPool != null) {
                 Jedis resource = jedisPool.getResource();
                 //index5: bcb #2 文件包, 一层sent2vec 预处理
-                resource.select(5);
+                resource.select(rid);
                 return resource;
             } else {
                 return null;

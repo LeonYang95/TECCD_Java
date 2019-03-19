@@ -2,6 +2,12 @@ package ccd;
 
 import antlr.Java8Lexer;
 import antlr.Java8Parser;
+import ccd.blockstat.BlockStatVisitor;
+import ccd.h1.MethodVisitorH1RuleNode;
+import ccd.h1.MethodVisitorH1Token;
+import ccd.h1h2.MethodVisitorH1H2;
+import ccd.h2.MethodVisitorH2RuleNode;
+import ccd.linenode.LineVisitor;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
@@ -27,11 +33,18 @@ public class WorkThread extends Thread{
         CharStream inputStream;
         Java8Parser parser;
         ParseTree parseTree;
-        MethodVisitor methodVisitor = new MethodVisitor();
+//        MethodVisitorH1RuleNode methodVisitor = new MethodVisitorH1RuleNode();
+//        MethodVisitorH2 methodVisitor = new MethodVisitorH2();
+//        LineVisitor methodVisitor = new LineVisitor();
+        MethodVisitorH1RuleNode methodVisitor = new MethodVisitorH1RuleNode();
+//        MethodVisitorH2RuleNode methodVisitor = new MethodVisitorH2RuleNode();
+//        BlockStatVisitor methodVisitor = new BlockStatVisitor();
+//        MethodVisitorH1H2 methodVisitor = new MethodVisitorH1H2();
         Jedis redis = RedisUtil.getJedis();
+        int fileSize = fileList.size();
+        int i = 0;
         for (String file : fileList) {
             try {
-                System.out.println(file+" start...");
                 inputStream = CharStreams.fromFileName(file);
                 parser = new Java8Parser(new CommonTokenStream(new Java8Lexer(inputStream)));
                 parseTree = parser.compilationUnit();
@@ -42,6 +55,8 @@ public class WorkThread extends Thread{
 //                File f = new File(file);
 //                if(f.exists()&&f.isFile())
 //                    f.delete();
+                i++;
+                System.out.println("thread"+threadId+": "+i+"/"+fileSize);
             } catch (IOException e) {
                 e.printStackTrace();
             }

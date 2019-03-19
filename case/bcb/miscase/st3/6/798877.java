@@ -13,8 +13,6 @@ import org.openremote.controller.event.Event;
  * @author Marcus 2009-4-26
  */
 public class HttpGetEvent extends Event {
-
-
     @Override
     public void exec() {
         BufferedReader in = null;
